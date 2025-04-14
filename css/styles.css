@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #f2f9f0;
+    color: #2c3e50;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 10%;
+    line-height: 1.6;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #3a6b35;
+    font-weight: bold;
+  }
+  
+  .tagline {
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #4a773c;
+    margin: 20px 0;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  .float-img {
+    float: left;
+    margin-right: 20px;
+    max-width: 40%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #d0e2d8;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+  
+  
+
+/* Add specific styles for navigation, main content, images, etc. */
