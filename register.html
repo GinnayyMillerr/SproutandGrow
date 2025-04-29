@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register for Event | Sprout & Grow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Sprout & Grow logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <p class="tagline">Rooted in sustainability. Grown with care.</p>
+
+  <main>
+    <h1>Register for an Upcoming Event</h1>
+    <p>Please fill out the form below to register for one of our exciting community gardening events.</p>
+
+    <form>
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" required><br /><br />
+
+      <label for="email">Email Address:</label><br />
+      <input type="email" id="email" name="email" required><br /><br />
+
+      <label for="event">Choose an Event:</label><br />
+      <select id="event" name="event" required>
+        <option value="">-- Select an event --</option>
+        <option value="potting">Plant Potting Class – May 10</option>
+        <option value="painting">Planter Painting Class – May 17</option>
+        <option value="swap">Plant Swap Day – May 24</option>
+      </select><br /><br />
+
+      <label>Preferred Time:</label><br />
+      <input type="radio" id="morning" name="time" value="morning" required>
+      <label for="morning">Morning</label><br />
+      <input type="radio" id="afternoon" name="time" value="afternoon">
+      <label for="afternoon">Afternoon</label><br /><br />
+
+      <label>Which topics are you interested in? (Select all that apply):</label><br />
+      <input type="checkbox" id="soil" name="topics" value="soil">
+      <label for="soil">Soil and Fertilizing</label><br />
+      <input type="checkbox" id="pest" name="topics" value="pest">
+      <label for="pest">Pest Control</label><br />
+      <input type="checkbox" id="design" name="topics" value="design">
+      <label for="design">Garden Design</label><br /><br />
+
+      <label for="comments">Anything else you'd like us to know?</label><br />
+      <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p><a href="index.html">← Back to Home</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sprout & Grow | Raleigh, NC</p>
+    <p><a href="mailto:info@sproutandgrow.com">info@sproutandgrow.com</a></p>
+    <p>Follow us:</p>
+    <a href="https://www.facebook.com/login" target="_blank">
+      <img src="images/facebook-icon.png" alt="Facebook" class="social-icon" />
+    </a>
+    <a href="https://twitter.com/login" target="_blank">
+      <img src="images/x-icon.png" alt="X (Twitter)" class="social-icon" />
+    </a>
+  </footer>
+</body>
+</html>
